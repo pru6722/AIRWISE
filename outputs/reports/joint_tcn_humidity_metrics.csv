@@ -1,0 +1,25 @@
+humidity_regime,hidden_samples,model,hidden_rmse,hidden_mae,hidden_r2,hidden_mbe
+Low (<40% RH),249,Raw PA_ATM (Baseline),20.41,13.29,0.9022,5.5
+Low (<40% RH),249,Linear Regression (atm_only),22.3,13.09,0.8832,-2.64
+Low (<40% RH),249,Random Forest (all_channels),23.08,14.21,0.8749,0.26
+Low (<40% RH),249,Two-Stage Linear Interpolation,24.83,15.16,0.8552,-0.31
+Low (<40% RH),249,Two-Stage Random Forest Imputer,34.7,21.26,0.7172,-0.98
+Low (<40% RH),249,GRU Recurrent Imputer,32.09,19.12,0.7581,-1.71
+Low (<40% RH),249,LSTM Recurrent Imputer,43.21,22.63,0.5616,-8.9
+Low (<40% RH),249,Joint TCN (Proposed),40.64,23.41,0.6122,-3.85
+Medium (40-65% RH),394,Raw PA_ATM (Baseline),27.61,17.74,0.9336,5.72
+Medium (40-65% RH),394,Linear Regression (atm_only),39.83,21.41,0.8619,-16.03
+Medium (40-65% RH),394,Random Forest (all_channels),39.81,21.62,0.862,-15.98
+Medium (40-65% RH),394,Two-Stage Linear Interpolation,45.67,23.8,0.8184,-17.73
+Medium (40-65% RH),394,Two-Stage Random Forest Imputer,49.34,28.28,0.7881,-15.82
+Medium (40-65% RH),394,GRU Recurrent Imputer,59.77,31.32,0.689,-23.57
+Medium (40-65% RH),394,LSTM Recurrent Imputer,82.4,45.11,0.4089,-40.69
+Medium (40-65% RH),394,Joint TCN (Proposed),70.4,38.76,0.5685,-18.03
+High (>65% RH),126,Raw PA_ATM (Baseline),31.84,20.53,0.7327,20.38
+High (>65% RH),126,Linear Regression (atm_only),9.54,5.85,0.976,0.82
+High (>65% RH),126,Random Forest (all_channels),10.83,6.42,0.9691,0.68
+High (>65% RH),126,Two-Stage Linear Interpolation,24.11,11.21,0.8467,-1.82
+High (>65% RH),126,Two-Stage Random Forest Imputer,16.7,10.48,0.9265,3.69
+High (>65% RH),126,GRU Recurrent Imputer,20.03,12.53,0.8942,-3.53
+High (>65% RH),126,LSTM Recurrent Imputer,31.27,17.92,0.7421,-12.16
+High (>65% RH),126,Joint TCN (Proposed),30.01,18.04,0.7626,-7.22

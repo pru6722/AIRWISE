@@ -1,0 +1,33 @@
+pollution_range,n_samples,mean_bam_ug_m3,model,rmse,mae,r2,mbe,rel_bias_pct
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Raw PA_ATM,10.19,7.61,0.4244,6.23,23.02
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Raw PA_CF1,21.86,15.09,-1.6504,14.06,51.98
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Raw PA_ALT,21.68,19.32,-1.6076,-19.32,-71.43
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Linear Regression (ATM only),7.03,5.09,0.7257,2.74,10.13
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Linear Regression (All Channels),7.03,5.08,0.7257,2.72,10.07
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Random Forest (ATM only),9.14,5.92,0.5365,2.76,10.19
+Low / Satisfactory (<=60 ug/m3),2067,27.05,Random Forest (All Channels),8.38,5.37,0.6102,2.46,9.1
+Low / Satisfactory (<=60 ug/m3),2067,27.05,XGBoost (All Channels),8.39,5.36,0.6097,2.94,10.86
+Moderate / Poor (61-120 ug/m3),688,87.53,Raw PA_ATM,27.16,20.85,-1.2767,15.45,17.65
+Moderate / Poor (61-120 ug/m3),688,87.53,Raw PA_CF1,76.71,68.18,-17.1672,67.82,77.48
+Moderate / Poor (61-120 ug/m3),688,87.53,Raw PA_ALT,66.28,64.55,-12.5601,-64.55,-73.75
+Moderate / Poor (61-120 ug/m3),688,87.53,Linear Regression (ATM only),16.96,12.54,0.112,-2.85,-3.25
+Moderate / Poor (61-120 ug/m3),688,87.53,Linear Regression (All Channels),16.74,12.34,0.1346,-1.21,-1.39
+Moderate / Poor (61-120 ug/m3),688,87.53,Random Forest (ATM only),19.18,14.63,-0.1354,2.05,2.35
+Moderate / Poor (61-120 ug/m3),688,87.53,Random Forest (All Channels),17.64,13.44,0.0394,0.29,0.33
+Moderate / Poor (61-120 ug/m3),688,87.53,XGBoost (All Channels),17.72,13.68,0.0306,0.5,0.58
+Very Poor / Severe (>120 ug/m3),965,211.89,Raw PA_ATM,42.64,33.0,0.6962,8.74,4.13
+Very Poor / Severe (>120 ug/m3),965,211.89,Raw PA_CF1,124.27,113.64,-1.5809,112.15,52.93
+Very Poor / Severe (>120 ug/m3),965,211.89,Raw PA_ALT,183.74,170.06,-4.6417,-170.06,-80.26
+Very Poor / Severe (>120 ug/m3),965,211.89,Linear Regression (ATM only),56.91,41.84,0.4588,-37.21,-17.56
+Very Poor / Severe (>120 ug/m3),965,211.89,Linear Regression (All Channels),58.28,42.5,0.4324,-38.05,-17.96
+Very Poor / Severe (>120 ug/m3),965,211.89,Random Forest (ATM only),56.31,41.87,0.4701,-35.32,-16.67
+Very Poor / Severe (>120 ug/m3),965,211.89,Random Forest (All Channels),56.1,41.55,0.474,-36.36,-17.16
+Very Poor / Severe (>120 ug/m3),965,211.89,XGBoost (All Channels),58.24,42.84,0.4332,-37.99,-17.93
+All Concentrations (Pooled),3720,86.18,Raw PA_ATM,25.8,16.64,0.9142,8.59,9.96
+All Concentrations (Pooled),3720,86.18,Raw PA_CF1,73.21,50.47,0.3088,49.45,57.37
+All Concentrations (Pooled),3720,86.18,Raw PA_ALT,99.15,66.79,-0.2677,-66.79,-77.49
+All Concentrations (Pooled),3720,86.18,Linear Regression (ATM only),30.34,16.0,0.8813,-8.66,-10.04
+All Concentrations (Pooled),3720,86.18,Linear Regression (All Channels),30.99,16.13,0.8762,-8.58,-9.96
+All Concentrations (Pooled),3720,86.18,Random Forest (ATM only),30.61,16.85,0.8792,-7.25,-8.41
+All Concentrations (Pooled),3720,86.18,Random Forest (All Channels),30.22,16.25,0.8823,-8.01,-9.29
+All Concentrations (Pooled),3720,86.18,XGBoost (All Channels),31.26,16.62,0.874,-8.13,-9.43

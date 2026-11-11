@@ -1,0 +1,17 @@
+{
+  "table_name": "sensor_format_parquet",
+  "cache_materialization_time_sec": 0.297,
+  "uncached_times": [
+    0.221,
+    0.134,
+    0.134
+  ],
+  "cached_times": [
+    0.14,
+    0.111,
+    0.111
+  ],
+  "median_uncached_sec": 0.134,
+  "median_cached_sec": 0.111,
+  "cache_speedup": 1.2
+}

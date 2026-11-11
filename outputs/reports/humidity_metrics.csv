@@ -1,0 +1,4 @@
+humidity_regime,hidden_samples,mae,rmse,r2,mbe,rel_bias_pct
+Low Humidity (RH < 40%),254,25.43,35.22,0.6819,8.89,11.4
+Medium Humidity (40% <= RH <= 65%),411,27.46,42.92,0.8114,-20.61,-16.92
+High Humidity (RH > 65%),81,9.59,15.15,0.9581,-3.82,-5.92

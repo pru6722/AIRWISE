@@ -1,0 +1,6 @@
+method,n_samples,cov_90,cov_error_90,mean_width_90,median_width_90,winkler_90,cov_95,cov_error_95,mean_width_95,winkler_95,point_rmse,point_mae,point_mbe
+Ordinary Split (Dual Head),3720,77.02,-12.98,51.4,49.0,263.94,80.27,-14.73,61.45,443.47,48.3,23.51,-8.84
+Humidity-Conditioned,3720,73.49,-16.51,44.66,43.15,274.54,78.58,-16.42,56.76,462.26,48.3,23.51,-8.84
+Predicted-Pollution-Conditioned,3720,78.79,-11.21,53.75,45.43,256.26,83.58,-11.42,66.35,423.69,48.3,23.51,-8.84
+Site-Conditioned,3720,75.91,-14.09,49.42,45.43,251.93,80.89,-14.11,59.4,411.03,48.3,23.51,-8.84
+Temporal Block Conformal (12h),3720,86.4,-3.6,88.67,88.67,237.03,95.7,0.7,200.84,318.54,48.3,23.51,-8.84

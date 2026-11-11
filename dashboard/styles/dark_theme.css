@@ -1,0 +1,199 @@
+/* AIRWISE Dark Academic Theme Stylesheet */
+
+/* Main Container Background */
+.stApp {
+    background-color: #0b111e;
+    color: #f8fafd;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #070c14 !important;
+    border-right: 1px solid #1e293b;
+}
+
+section[data-testid="stSidebar"] .stMarkdown h1, 
+section[data-testid="stSidebar"] .stMarkdown h2, 
+section[data-testid="stSidebar"] .stMarkdown h3 {
+    color: #00d2c4 !important;
+    letter-spacing: -0.5px;
+}
+
+/* Metric Cards */
+.airwise-card {
+    background-color: #131c2e;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.airwise-card:hover {
+    border-color: #00d2c4;
+    transform: translateY(-2px);
+}
+
+.airwise-card-title {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #94a3b8;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.airwise-card-value {
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: #f8fafd;
+    line-height: 1.2;
+}
+
+.airwise-card-sub {
+    font-size: 0.78rem;
+    color: #00a8ff;
+    margin-top: 4px;
+}
+
+/* Badges & Pills */
+.badge-cpcb {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.badge-stable {
+    background-color: rgba(0, 210, 196, 0.15);
+    color: #00d2c4;
+    border: 1px solid #00d2c4;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.badge-ambiguous {
+    background-color: rgba(255, 184, 108, 0.15);
+    color: #ffb86c;
+    border: 1px solid #ffb86c;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+/* Research Callouts */
+.research-alert {
+    background-color: #111a2c;
+    border-left: 4px solid #00d2c4;
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 12px 0 16px 0;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+}
+
+.research-warning {
+    background-color: #1a171c;
+    border-left: 4px solid #ffb86c;
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 12px 0 16px 0;
+    font-size: 0.9rem;
+    color: #e2e8f0;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #f8fafd !important;
+    font-weight: 600 !important;
+}
+
+h1 {
+    font-size: 2.1rem !important;
+    letter-spacing: -0.8px !important;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.45rem !important;
+    letter-spacing: -0.4px !important;
+    color: #00a8ff !important;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+h3 {
+    font-size: 1.15rem !important;
+    color: #00d2c4 !important;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+/* Table styling */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Tabs */
+button[data-baseweb="tab"] {
+    background-color: transparent !important;
+    color: #94a3b8 !important;
+    font-weight: 600 !important;
+    border-radius: 4px 4px 0 0 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #00d2c4 !important;
+    border-bottom-color: #00d2c4 !important;
+}
+
+/* Multipage Sidebar Navigation Active Highlighting */
+[data-testid="stSidebarNavLink"] {
+    border-radius: 6px !important;
+    margin: 2px 6px !important;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+[data-testid="stSidebarNavLink"][aria-current="page"] {
+    background-color: rgba(0, 210, 196, 0.14) !important;
+    border-left: 3px solid #00d2c4 !important;
+}
+
+[data-testid="stSidebarNavLink"][aria-current="page"] span {
+    color: #00d2c4 !important;
+    font-weight: 700 !important;
+}
+
+/* Status & Pipeline Badges */
+.badge-pipeline {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.badge-population {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    background-color: rgba(0, 168, 255, 0.14);
+    color: #00a8ff;
+    border: 1px solid #00a8ff;
+}
+

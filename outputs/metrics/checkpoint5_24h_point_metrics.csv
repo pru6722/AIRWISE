@@ -1,0 +1,11 @@
+n_samples,mae,rmse,r2,mbe,rel_bias_pct,med_ae,subset
+127,16.48,25.39,0.8798,-8.07,-10.12,8.92,Pooled Test
+55,7.32,8.65,-0.2056,7.24,30.13,6.48,Site: Bangalore
+56,27.92,36.93,0.7559,-23.16,-17.69,20.92,Site: Delhi
+16,7.9,9.22,0.9697,-7.9,-8.58,7.74,Site: Hamirpur
+47,8.46,14.46,-5.2442,8.37,39.9,6.24,Ref Category: Good
+31,7.67,9.45,-0.0261,1.02,2.37,7.48,Ref Category: Satisfactory
+5,4.43,4.95,0.7032,-4.43,-6.1,3.67,Ref Category: Moderate
+12,14.28,15.84,-6.096,-13.65,-12.38,15.11,Ref Category: Poor
+28,34.43,38.68,0.0655,-34.43,-18.9,36.85,Ref Category: Very Poor
+4,74.99,77.82,-1071.2794,-74.99,-29.48,79.5,Ref Category: Severe

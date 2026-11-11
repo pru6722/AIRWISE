@@ -1,0 +1,16 @@
+model,gap_hours,missing_rate,hidden_samples,mae,rmse,r2,mbe,error_growth_rmse
+Two-Stage Linear Interpolation,1,0.2,744,18.49,38.79,0.7922,-10.13,0.0
+Two-Stage Random Forest Imputer,1,0.2,744,21.29,36.57,0.8153,-8.09,0.0
+Joint TCN (Proposed),1,0.2,744,32.38,67.1,0.3781,-11.59,0.0
+Two-Stage Linear Interpolation,3,0.2,744,19.95,38.92,0.7765,-6.95,0.13
+Two-Stage Random Forest Imputer,3,0.2,744,23.38,40.15,0.762,-5.26,3.58
+Joint TCN (Proposed),3,0.2,744,31.37,53.84,0.5722,-11.52,-13.26
+Two-Stage Linear Interpolation,6,0.2,746,24.83,38.24,0.8141,-8.75,-0.55
+Two-Stage Random Forest Imputer,6,0.2,746,27.64,45.1,0.7415,-11.89,8.53
+Joint TCN (Proposed),6,0.2,746,46.13,105.47,-0.4137,-18.36,38.37
+Two-Stage Linear Interpolation,12,0.2,751,31.8,52.58,0.6212,-16.87,13.79
+Two-Stage Random Forest Imputer,12,0.2,751,30.7,45.94,0.7108,-7.25,9.37
+Joint TCN (Proposed),12,0.2,751,46.08,73.73,0.2553,-33.15,6.63
+Two-Stage Linear Interpolation,24,0.2,750,39.8,55.44,0.5778,-7.68,16.65
+Two-Stage Random Forest Imputer,24,0.2,750,34.03,48.43,0.6779,-8.21,11.86
+Joint TCN (Proposed),24,0.2,750,56.67,84.86,0.011,-44.96,17.76

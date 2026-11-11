@@ -1,0 +1,8 @@
+model,pipeline_category,hidden_samples,hidden_mae,hidden_rmse,hidden_r2,hidden_mbe,hidden_rel_bias_pct
+Bidirectional GRU,Offline (Bidirectional RNN),769,18.66,36.17,0.8428,-11.45,-13.34
+Bidirectional LSTM,Offline (Bidirectional RNN),769,19.32,36.83,0.837,-12.91,-15.04
+Linear Interpolation,Offline (Two-Sided),769,18.94,36.93,0.8361,-9.48,-11.05
+Causal GRU,Causal (Unidirectional RNN),769,23.63,44.89,0.7578,-14.36,-16.74
+Causal LSTM,Causal (Unidirectional RNN),769,23.64,45.4,0.7523,-14.16,-16.5
+Random Forest Imputer,Causal (Tabular RF),769,38.33,59.03,0.5812,-2.87,-3.34
+KNN Imputer,Offline (Global Similarity),769,45.05,68.87,0.4299,-4.34,-5.05

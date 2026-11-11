@@ -1,0 +1,37 @@
+scenario_id,scenario_name,category,pipeline_code,pipeline_name,evaluated_population,n_samples,coverage_pct,missing_predictions,rmse,mae,r2,mbe,rel_bias_pct
+MCAR_20pct,20% MCAR,MCAR,A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,42.79,22.84,0.7639,-9.15,-10.62
+MCAR_20pct,20% MCAR,MCAR,B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,37.77,20.71,0.8161,-6.94,-8.05
+MCAR_20pct,20% MCAR,MCAR,C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,42.05,23.91,0.772,-11.04,-12.82
+MCAR_20pct,20% MCAR,MCAR,D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2951,79.33,769,29.82,16.13,0.8831,-8.02,-9.29
+Block_1h,Block Outage (1h),MCAR (Block),A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,40.85,22.18,0.7848,-8.77,-10.18
+Block_1h,Block Outage (1h),MCAR (Block),B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,36.33,20.15,0.8298,-6.69,-7.77
+Block_1h,Block Outage (1h),MCAR (Block),C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,42.02,23.99,0.7723,-11.27,-13.08
+Block_1h,Block Outage (1h),MCAR (Block),D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2976,80.0,744,30.61,16.29,0.8811,-7.96,-9.22
+Block_3h,Block Outage (3h),MCAR (Block),A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,40.3,21.82,0.7906,-8.5,-9.87
+Block_3h,Block Outage (3h),MCAR (Block),B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,37.01,20.52,0.8234,-6.44,-7.47
+Block_3h,Block Outage (3h),MCAR (Block),C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,42.03,24.0,0.7722,-11.37,-13.2
+Block_3h,Block Outage (3h),MCAR (Block),D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2976,80.0,744,30.61,16.22,0.8829,-8.16,-9.53
+Block_6h,Block Outage (6h),MCAR (Block),A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,42.11,21.88,0.7714,-9.73,-11.29
+Block_6h,Block Outage (6h),MCAR (Block),B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,36.26,19.94,0.8305,-6.45,-7.48
+Block_6h,Block Outage (6h),MCAR (Block),C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,44.45,25.14,0.7453,-12.81,-14.86
+Block_6h,Block Outage (6h),MCAR (Block),D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2974,79.95,746,30.42,15.72,0.8792,-7.33,-8.89
+Block_12h,Block Outage (12h),MCAR (Block),A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,44.12,23.4,0.749,-8.13,-9.43
+Block_12h,Block Outage (12h),MCAR (Block),B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,39.83,21.71,0.7954,-5.2,-6.03
+Block_12h,Block Outage (12h),MCAR (Block),C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,46.68,26.07,0.7191,-13.33,-15.46
+Block_12h,Block Outage (12h),MCAR (Block),D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2969,79.81,751,30.46,15.98,0.8814,-7.66,-9.21
+Block_24h,Block Outage (24h),MCAR (Block),A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,40.03,21.63,0.7934,-7.24,-8.4
+Block_24h,Block Outage (24h),MCAR (Block),B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,36.42,20.24,0.829,-3.6,-4.17
+Block_24h,Block Outage (24h),MCAR (Block),C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,49.66,27.49,0.682,-14.6,-16.94
+Block_24h,Block Outage (24h),MCAR (Block),D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2970,79.84,750,29.39,14.75,0.8876,-6.67,-8.32
+MAR_RH,MAR-RH (Humidity-Conditioned),MAR,A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,41.47,23.0,0.7783,-11.46,-13.3
+MAR_RH,MAR-RH (Humidity-Conditioned),MAR,B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,37.0,20.48,0.8235,-9.99,-11.59
+MAR_RH,MAR-RH (Humidity-Conditioned),MAR,C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,41.14,24.05,0.7817,-12.3,-14.27
+MAR_RH,MAR-RH (Humidity-Conditioned),MAR,D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2976,80.0,744,32.27,17.88,0.8712,-9.01,-9.91
+MAR_Lag,MAR-Lag (Past PM_{t-1}-Conditioned),MAR,A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,50.11,25.29,0.6762,-14.34,-16.64
+MAR_Lag,MAR-Lag (Past PM_{t-1}-Conditioned),MAR,B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,41.57,22.07,0.7771,-9.45,-10.96
+MAR_Lag,MAR-Lag (Past PM_{t-1}-Conditioned),MAR,C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,49.72,26.81,0.6813,-15.91,-18.46
+MAR_Lag,MAR-Lag (Past PM_{t-1}-Conditioned),MAR,D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2976,80.0,744,25.69,13.04,0.8913,-5.01,-7.3
+MNAR_PM,MNAR-PM (True Particulate Intensity),MNAR,A,Pipeline A (Impute -> Calibrate),Full Test Population (N=3720),3720,100.0,0,50.4,25.37,0.6724,-14.45,-16.76
+MNAR_PM,MNAR-PM (True Particulate Intensity),MNAR,B,Pipeline B (Calibrate -> Impute),Full Test Population (N=3720),3720,100.0,0,41.64,22.09,0.7764,-9.46,-10.98
+MNAR_PM,MNAR-PM (True Particulate Intensity),MNAR,C,Pipeline C (Joint TCN v2),Full Test Population (N=3720),3720,100.0,0,49.94,26.89,0.6784,-16.07,-18.65
+MNAR_PM,MNAR-PM (True Particulate Intensity),MNAR,D,Pipeline D (Complete-Case Reference),Eligible Complete Cases Only (Not Full-N Comparable),2976,80.0,744,25.63,13.05,0.8909,-4.87,-7.13

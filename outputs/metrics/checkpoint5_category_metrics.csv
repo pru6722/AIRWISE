@@ -1,0 +1,7 @@
+cpcb_category,support,precision,recall,f1_score
+Good,47,96.55,59.57,73.68
+Satisfactory,31,61.22,96.77,75.0
+Moderate,5,50.0,80.0,61.54
+Poor,12,56.25,75.0,64.29
+Very Poor,28,84.0,75.0,79.25
+Severe,4,0.0,0.0,0.0

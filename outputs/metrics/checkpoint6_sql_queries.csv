@@ -1,0 +1,8 @@
+query_id,output_row_count,median_runtime_sec,run1_sec,run2_sec,run3_sec
+Q1_Total_Obs_Per_Site,3,0.0702,0.0829,0.0702,0.0534
+Q2_Avg_BAM_Per_Site,3,0.0619,0.0941,0.0619,0.0592
+Q3_Sensor_Readings_Site_Month,43,0.079,0.1054,0.079,0.0704
+Q4_Humidity_Regimes,4,0.0636,0.1085,0.0636,0.0613
+Q5_Pollution_Regimes,6,0.0645,0.0786,0.0645,0.061
+Q6_Daily_Aggregates_Completeness,721,0.0983,0.0983,0.1174,0.094
+Q7_Gap_Statistics,3,0.0393,0.0678,0.0393,0.0393

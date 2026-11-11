@@ -1,0 +1,13 @@
+site,sensor_channel,mae_ug_m3,rmse_ug_m3,mean_bias_ug_m3,relative_bias_pct,pearson_r,r2
+Delhi,pa_cf1,69.04,93.23,57.97,55.65,0.8855,0.7842
+Delhi,pa_atm,28.37,40.04,7.18,6.89,0.8948,0.8007
+Delhi,pa_alt,81.9,104.55,-81.9,-78.62,0.881,0.7761
+Hamirpur,pa_cf1,31.66,50.57,30.26,73.74,0.9642,0.9296
+Hamirpur,pa_atm,13.69,19.38,11.29,27.53,0.9622,0.9259
+Hamirpur,pa_alt,29.5,41.49,-29.5,-71.89,0.9591,0.9199
+Bangalore,pa_cf1,13.71,18.91,12.73,50.18,0.913,0.8336
+Bangalore,pa_atm,7.34,9.21,6.06,23.88,0.902,0.8135
+Bangalore,pa_alt,17.91,20.63,-17.91,-70.61,0.9282,0.8616
+POOLED (All Sites),pa_cf1,39.57,64.45,34.43,57.14,0.9239,0.8535
+POOLED (All Sites),pa_atm,17.07,27.47,7.54,12.51,0.9285,0.8621
+POOLED (All Sites),pa_alt,46.02,70.15,-46.02,-76.37,0.917,0.8409

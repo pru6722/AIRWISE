@@ -1,0 +1,25 @@
+site,method,nominal_coverage_pct,n_samples,empirical_coverage_pct,coverage_error_pct,mean_interval_width,winkler_score
+Delhi,Ordinary Split Conformal,90,1502,51.07,-38.93,51.27,532.07
+Delhi,Ordinary Split Conformal,95,1502,56.59,-38.41,61.28,930.18
+Delhi,Block Conformal (6h),90,1502,62.98,-27.02,72.42,463.69
+Delhi,Block Conformal (6h),95,1502,69.51,-25.49,90.62,751.33
+Delhi,Block Conformal (12h),90,1502,68.77,-21.23,88.67,425.03
+Delhi,Block Conformal (12h),95,1502,90.35,-4.65,200.84,458.9
+Delhi,Block Conformal (24h),90,1502,90.35,0.35,200.84,329.87
+Delhi,Block Conformal (24h),95,1502,95.27,0.27,283.37,430.02
+Bangalore,Ordinary Split Conformal,90,1489,97.58,7.58,51.5,73.36
+Bangalore,Ordinary Split Conformal,95,1489,98.72,3.72,61.58,101.51
+Bangalore,Block Conformal (6h),90,1489,98.99,8.99,72.42,91.65
+Bangalore,Block Conformal (6h),95,1489,99.19,4.19,90.62,125.84
+Bangalore,Block Conformal (12h),90,1489,99.19,9.19,88.67,106.44
+Bangalore,Block Conformal (12h),95,1489,99.46,4.46,200.84,223.48
+Bangalore,Block Conformal (24h),90,1489,99.46,9.46,200.84,212.16
+Bangalore,Block Conformal (24h),95,1489,99.53,4.53,283.37,297.61
+Hamirpur,Ordinary Split Conformal,90,729,88.48,-1.52,51.45,100.73
+Hamirpur,Ordinary Split Conformal,95,729,91.36,-3.64,61.52,139.14
+Hamirpur,Block Conformal (6h),90,729,94.38,4.38,72.42,107.43
+Hamirpur,Block Conformal (6h),95,729,96.84,1.84,90.62,144.74
+Hamirpur,Block Conformal (12h),90,729,96.57,6.57,88.67,116.4
+Hamirpur,Block Conformal (12h),95,729,99.04,4.04,200.84,223.54
+Hamirpur,Block Conformal (24h),90,729,99.04,9.04,200.84,212.19
+Hamirpur,Block Conformal (24h),95,729,99.45,4.45,283.37,292.07

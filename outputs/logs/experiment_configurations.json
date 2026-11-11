@@ -1,0 +1,68 @@
+{
+  "experiment_name": "checkpoint2_baselines",
+  "random_seed": 42,
+  "split_counts": {
+    "Bangalore": {
+      "total_count": 7441,
+      "train_count": 4464,
+      "val_count": 1488,
+      "test_count": 1489,
+      "train_start": "2019-06-21 17:30:00",
+      "train_end": "2020-01-11 03:30:00",
+      "val_start": "2020-01-11 04:30:00",
+      "val_end": "2020-04-08 20:30:00",
+      "test_start": "2020-04-08 21:30:00",
+      "test_end": "2020-07-31 17:30:00"
+    },
+    "Delhi": {
+      "total_count": 7504,
+      "train_count": 4502,
+      "val_count": 1500,
+      "test_count": 1502,
+      "train_start": "2018-07-24 06:30:00",
+      "train_end": "2019-04-23 12:30:00",
+      "val_start": "2019-04-23 13:30:00",
+      "val_end": "2019-07-02 12:30:00",
+      "test_start": "2019-07-02 13:30:00",
+      "test_end": "2020-01-03 14:30:00"
+    },
+    "Hamirpur": {
+      "total_count": 3639,
+      "train_count": 2183,
+      "val_count": 727,
+      "test_count": 729,
+      "train_start": "2020-03-22 17:30:00",
+      "train_end": "2020-08-10 04:30:00",
+      "val_start": "2020-08-10 05:30:00",
+      "val_end": "2020-09-28 16:30:00",
+      "test_start": "2020-09-28 17:30:00",
+      "test_end": "2021-01-11 22:30:00"
+    },
+    "pooled": {
+      "total_count": 18584,
+      "train_count": 11149,
+      "val_count": 3715,
+      "test_count": 3720
+    }
+  },
+  "best_calibration_model": {
+    "algorithm": "Random Forest",
+    "feature_set": "all_channels",
+    "feature_cols": [
+      "pa_cf1",
+      "pa_atm",
+      "pa_alt",
+      "relative_humidity",
+      "temperature"
+    ],
+    "val_rmse": 32.62,
+    "test_rmse": 30.22,
+    "test_r2": 0.8823
+  },
+  "best_reconstruction_baseline": {
+    "model": "Linear Interpolation",
+    "hidden_rmse": 36.93,
+    "hidden_mae": 18.94,
+    "hidden_r2": 0.8361
+  }
+}

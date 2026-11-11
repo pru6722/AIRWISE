@@ -1,0 +1,4 @@
+format,table_name,create_time_sec,query_time_sec,size_mb,file_count,row_count
+CSV,sensor_format_csv,0.94,0.513,2.126,2,18584
+PARQUET,sensor_format_parquet,0.371,0.156,0.573,2,18584
+ORC,sensor_format_orc,0.559,0.155,0.338,2,18584

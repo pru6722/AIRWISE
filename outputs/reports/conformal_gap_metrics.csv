@@ -1,0 +1,11 @@
+gap_hours,conformal_method,hidden_samples,empirical_coverage,mean_interval_width,point_rmse,point_mbe
+1,Ordinary Split (Rec Head),744,74.06,60.59,67.1,-11.59
+1,Block Conformal (12h),744,80.51,88.67,67.1,-11.59
+3,Ordinary Split (Rec Head),744,72.98,60.59,53.84,-11.52
+3,Block Conformal (12h),744,79.97,88.67,53.84,-11.52
+6,Ordinary Split (Rec Head),746,62.33,60.59,105.47,-18.36
+6,Block Conformal (12h),746,70.11,88.67,105.47,-18.36
+12,Ordinary Split (Rec Head),751,59.12,60.59,73.73,-33.15
+12,Block Conformal (12h),751,68.84,88.67,73.73,-33.15
+24,Ordinary Split (Rec Head),750,49.73,60.59,84.86,-44.96
+24,Block Conformal (12h),750,59.2,88.67,84.86,-44.96

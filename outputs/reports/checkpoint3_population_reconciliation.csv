@@ -1,0 +1,18 @@
+metric_or_scope,population_scope,sample_count,description
+Full Dataset Total,All Sites,18584,Total cleaned hourly observations across 3 cities
+Train Partition (60%),All Sites,11149,Chronological training subset
+Validation Partition (20%),All Sites,3715,Chronological validation subset in Checkpoint 2/3
+Test Partition (20%),All Sites,3720,Untouched chronological test subset
+Delhi Test Total,Delhi,1502,"Exactly 1,502 rows (resolves 1,501 text rounding typo)"
+Hamirpur Test Total,Hamirpur,729,Exactly 729 rows
+Bangalore Test Total,Bangalore,1489,"Exactly 1,489 rows"
+Benchmark Test Hidden (MCAR 20%),All Sites,769,Hidden evaluation subset (exactly 769 rows / 20.67%)
+Benchmark Test Observed,All Sites,2951,"Observed calibration evaluation subset (2,951 rows)"
+Delhi Band: <= 120 ug/m3,Delhi Test,725,Normal pollution stratum (725 rows)
+Delhi Band: 120-250 ug/m3,Delhi Test,520,High pollution stratum (520 rows)
+Delhi Band: > 250 ug/m3,Delhi Test,257,Severe winter saturation stratum (257 rows)
+Delhi Sum of 3 Bands,Delhi Test,1502,"725 + 520 + 257 = 1,502 (exact sum verified)"
+Raw PA_ATM RMSE: Pooled Full Test,All Sites Test (N=3720),3720,RMSE = 25.80 ug/m3 (reconciles 25.80)
+Raw PA_ATM RMSE: Delhi Full Test,Delhi Test (N=1502),1502,RMSE = 31.95 ug/m3 (reconciles 31.95 / 31.9)
+Raw PA_ATM RMSE: Pooled Hidden Test,All Sites Hidden (N=769),769,RMSE = 26.30 ug/m3 (reconciles 26.30)
+Raw PA_ATM RMSE: Delhi Hidden Test,Delhi Hidden (N=311),311,RMSE = 34.52 ug/m3 (reconciles 34.52)

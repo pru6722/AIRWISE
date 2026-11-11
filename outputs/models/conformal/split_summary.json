@@ -1,0 +1,54 @@
+{
+  "n_total": 18584,
+  "n_train": 11149,
+  "n_val_model": 1857,
+  "n_calib_conformal": 1858,
+  "n_test": 3720,
+  "sites": {
+    "Bangalore": {
+      "total_count": 7441,
+      "train_count": 4464,
+      "train_start": "2019-06-21 17:30:00",
+      "train_end": "2020-01-11 03:30:00",
+      "val_model_count": 744,
+      "val_model_start": "2020-01-11 04:30:00",
+      "val_model_end": "2020-02-13 12:30:00",
+      "calib_conformal_count": 744,
+      "calib_conformal_start": "2020-02-13 13:30:00",
+      "calib_conformal_end": "2020-04-08 20:30:00",
+      "test_count": 1489,
+      "test_start": "2020-04-08 21:30:00",
+      "test_end": "2020-07-31 17:30:00"
+    },
+    "Delhi": {
+      "total_count": 7504,
+      "train_count": 4502,
+      "train_start": "2018-07-24 06:30:00",
+      "train_end": "2019-04-23 12:30:00",
+      "val_model_count": 750,
+      "val_model_start": "2019-04-23 13:30:00",
+      "val_model_end": "2019-05-25 03:30:00",
+      "calib_conformal_count": 750,
+      "calib_conformal_start": "2019-05-25 04:30:00",
+      "calib_conformal_end": "2019-07-02 12:30:00",
+      "test_count": 1502,
+      "test_start": "2019-07-02 13:30:00",
+      "test_end": "2020-01-03 14:30:00"
+    },
+    "Hamirpur": {
+      "total_count": 3639,
+      "train_count": 2183,
+      "train_start": "2020-03-22 17:30:00",
+      "train_end": "2020-08-10 04:30:00",
+      "val_model_count": 363,
+      "val_model_start": "2020-08-10 05:30:00",
+      "val_model_end": "2020-09-04 14:30:00",
+      "calib_conformal_count": 364,
+      "calib_conformal_start": "2020-09-04 15:30:00",
+      "calib_conformal_end": "2020-09-28 16:30:00",
+      "test_count": 729,
+      "test_start": "2020-09-28 17:30:00",
+      "test_end": "2021-01-11 22:30:00"
+    }
+  }
+}

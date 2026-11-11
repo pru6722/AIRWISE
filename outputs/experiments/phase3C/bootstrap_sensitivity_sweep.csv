@@ -1,0 +1,13 @@
+block_length_hours,delta_rmse,ci_lower_95,ci_upper_95,ci_width,p_value,significant,scenario_id,comparison
+12,-0.739,-5.268,-0.368,4.9,0.01,True,MCAR_20pct,Joint TCN v2 (C) vs Pipeline A
+24,-0.739,-4.308,0.702,5.01,0.084,False,MCAR_20pct,Joint TCN v2 (C) vs Pipeline A
+48,-0.739,-3.318,2.557,5.875,0.384,False,MCAR_20pct,Joint TCN v2 (C) vs Pipeline A
+72,-0.739,-2.904,4.245,7.149,0.652,False,MCAR_20pct,Joint TCN v2 (C) vs Pipeline A
+12,2.338,-3.33,3.701,7.031,0.556,False,Block_6h,Joint TCN v2 (C) vs Pipeline A
+24,2.338,-0.886,5.321,6.207,0.892,False,Block_6h,Joint TCN v2 (C) vs Pipeline A
+48,2.338,-0.803,6.937,7.74,0.94,False,Block_6h,Joint TCN v2 (C) vs Pipeline A
+72,2.338,-0.718,8.838,9.556,0.964,False,Block_6h,Joint TCN v2 (C) vs Pipeline A
+12,-0.464,-4.844,1.718,6.562,0.16,False,MNAR_PM,Joint TCN v2 (C) vs Pipeline A
+24,-0.464,-2.798,4.595,7.393,0.718,False,MNAR_PM,Joint TCN v2 (C) vs Pipeline A
+48,-0.464,-1.47,7.686,9.156,0.906,False,MNAR_PM,Joint TCN v2 (C) vs Pipeline A
+72,-0.464,-0.208,10.696,10.904,0.968,False,MNAR_PM,Joint TCN v2 (C) vs Pipeline A

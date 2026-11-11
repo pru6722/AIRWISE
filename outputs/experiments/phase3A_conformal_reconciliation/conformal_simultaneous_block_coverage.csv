@@ -1,0 +1,7 @@
+block_size_hours,nominal_coverage_pct,n_test_blocks,conformal_quantile,interval_width,covered_blocks_count,simultaneous_block_coverage_pct
+6,90,489,36.21,72.42,333,68.1
+6,95,489,45.31,90.62,363,74.23
+12,90,188,44.34,88.67,120,63.83
+12,95,188,100.42,200.84,161,85.64
+24,90,59,100.42,200.84,44,74.58
+24,95,59,141.68,283.37,50,84.75

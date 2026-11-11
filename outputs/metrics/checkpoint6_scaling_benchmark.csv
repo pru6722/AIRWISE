@@ -1,0 +1,6 @@
+scale,rows,format,file_size_mb,pandas_median_sec,pandas_throughput_rows_sec,spark_median_sec,spark_throughput_rows_sec,spark_speedup_vs_pandas,faster_engine,validation_passed
+1,18584,PARQUET,0.63,0.017,1075151.9,0.494,37651.4,0.04,Pandas,True
+5,92920,PARQUET,4.42,0.058,1606039.1,0.526,176496.4,0.11,Pandas,True
+10,185840,PARQUET,9.19,0.105,1766053.8,0.557,333746.3,0.19,Pandas,True
+25,464600,PARQUET,21.08,0.261,1781136.1,0.734,632874.4,0.36,Pandas,True
+50,929200,PARQUET,38.85,0.544,1709323.5,0.967,961275.2,0.56,Pandas,True

@@ -1,0 +1,10 @@
+site,model_name,eligible_windows,accuracy_pct,macro_f1_pct,weighted_f1_pct,cohen_kappa_quadratic
+Bangalore,Raw PurpleAir (CF=1),55,60.0,39.11,64.88,0.3744
+Bangalore,Raw PurpleAir (ATM),55,65.45,63.73,68.19,0.3553
+Bangalore,Calibrated Model (Joint TCN),55,69.09,66.95,71.69,0.4003
+Delhi,Raw PurpleAir (CF=1),56,30.36,28.98,30.09,0.8137
+Delhi,Raw PurpleAir (ATM),56,69.64,59.13,68.26,0.9261
+Delhi,Calibrated Model (Joint TCN),56,69.64,56.99,67.95,0.8721
+Hamirpur,Raw PurpleAir (CF=1),16,0.0,0.0,0.0,0.588
+Hamirpur,Raw PurpleAir (ATM),16,56.25,36.67,56.25,0.8767
+Hamirpur,Calibrated Model (Joint TCN),16,93.75,90.2,92.89,0.981

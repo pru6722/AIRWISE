@@ -1,0 +1,53 @@
+site,feature_set,algorithm,rmse,mae,r2,mbe
+Bangalore,Raw PA_ATM (Baseline),Uncalibrated,7.7,6.27,0.4733,4.85
+Bangalore,atm_only,Linear Regression,5.48,4.32,0.733,2.18
+Bangalore,cf1_only,Linear Regression,4.75,3.75,0.7991,1.25
+Bangalore,alt_only,Linear Regression,6.83,5.32,0.5851,2.79
+Bangalore,all_channels,Linear Regression,5.42,4.33,0.7388,2.13
+Bangalore,atm_only,Random Forest,6.28,4.57,0.6495,1.33
+Bangalore,cf1_only,Random Forest,6.1,4.5,0.6689,1.28
+Bangalore,alt_only,Random Forest,7.32,5.0,0.5244,3.48
+Bangalore,all_channels,Random Forest,5.44,3.94,0.7371,1.53
+Bangalore,atm_only,Xgboost,6.41,4.87,0.6344,2.7
+Bangalore,cf1_only,Xgboost,6.42,4.87,0.6339,2.7
+Bangalore,alt_only,Xgboost,8.04,5.66,0.4261,4.58
+Bangalore,all_channels,Xgboost,5.46,3.98,0.7354,2.07
+Hamirpur,Raw PA_ATM (Baseline),Uncalibrated,34.24,26.13,0.5579,24.9
+Hamirpur,atm_only,Linear Regression,11.39,8.03,0.9511,0.95
+Hamirpur,cf1_only,Linear Regression,11.7,8.6,0.9484,3.14
+Hamirpur,alt_only,Linear Regression,14.69,11.63,0.9187,4.29
+Hamirpur,all_channels,Linear Regression,11.39,8.15,0.9511,1.85
+Hamirpur,atm_only,Random Forest,16.74,12.34,0.8944,4.2
+Hamirpur,cf1_only,Random Forest,15.93,11.98,0.9043,2.68
+Hamirpur,alt_only,Random Forest,17.9,12.8,0.8792,0.79
+Hamirpur,all_channels,Random Forest,14.14,10.58,0.9246,1.81
+Hamirpur,atm_only,Xgboost,16.19,12.28,0.9012,1.22
+Hamirpur,cf1_only,Xgboost,16.48,12.64,0.8976,-0.08
+Hamirpur,alt_only,Xgboost,17.81,12.81,0.8805,-1.38
+Hamirpur,all_channels,Xgboost,14.89,11.26,0.9164,1.33
+Delhi,Raw PA_ATM (Baseline),Uncalibrated,31.95,22.32,0.9004,4.37
+Delhi,atm_only,Linear Regression,46.77,31.45,0.7866,-24.06
+Delhi,cf1_only,Linear Regression,52.14,33.12,0.7349,-25.49
+Delhi,alt_only,Linear Regression,54.45,34.58,0.7109,-26.02
+Delhi,all_channels,Linear Regression,47.82,31.69,0.777,-24.26
+Delhi,atm_only,Random Forest,46.32,31.22,0.7907,-21.32
+Delhi,cf1_only,Random Forest,51.7,33.23,0.7393,-23.75
+Delhi,alt_only,Random Forest,52.36,34.62,0.7326,-26.12
+Delhi,all_channels,Random Forest,46.21,31.2,0.7918,-22.23
+Delhi,atm_only,Xgboost,47.65,31.98,0.7785,-22.25
+Delhi,cf1_only,Xgboost,51.88,33.72,0.7374,-24.02
+Delhi,alt_only,Xgboost,52.65,34.78,0.7296,-26.28
+Delhi,all_channels,Xgboost,47.78,31.76,0.7774,-22.83
+Pooled (All Sites),Raw PA_ATM (Baseline),Uncalibrated,25.8,16.64,0.9142,8.59
+Pooled (All Sites),atm_only,Linear Regression,30.34,16.0,0.8813,-8.66
+Pooled (All Sites),cf1_only,Linear Regression,33.67,16.56,0.8538,-9.18
+Pooled (All Sites),alt_only,Linear Regression,35.47,18.37,0.8378,-8.55
+Pooled (All Sites),all_channels,Linear Regression,30.99,16.13,0.8762,-8.58
+Pooled (All Sites),atm_only,Random Forest,30.61,16.85,0.8792,-7.25
+Pooled (All Sites),cf1_only,Random Forest,33.82,17.57,0.8525,-8.55
+Pooled (All Sites),alt_only,Random Forest,34.52,18.49,0.8464,-9.0
+Pooled (All Sites),all_channels,Random Forest,30.22,16.25,0.8823,-8.01
+Pooled (All Sites),atm_only,Xgboost,31.38,17.27,0.873,-7.66
+Pooled (All Sites),cf1_only,Xgboost,34.01,18.04,0.8509,-8.64
+Pooled (All Sites),alt_only,Xgboost,34.74,18.82,0.8443,-9.05
+Pooled (All Sites),all_channels,Xgboost,31.26,16.62,0.874,-8.13

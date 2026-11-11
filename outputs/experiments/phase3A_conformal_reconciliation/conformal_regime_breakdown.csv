@@ -1,0 +1,25 @@
+predicted_pollution_regime,method,nominal_coverage_pct,n_samples,empirical_coverage_pct,coverage_error_pct,mean_interval_width,winkler_score
+Low (<=60 ug/m3),Ordinary Split Conformal,90,2089,96.74,6.74,51.46,60.96
+Low (<=60 ug/m3),Ordinary Split Conformal,95,2089,98.09,3.09,61.54,75.32
+Low (<=60 ug/m3),Block Conformal (6h),90,2089,98.95,8.95,72.42,78.55
+Low (<=60 ug/m3),Block Conformal (6h),95,2089,99.43,4.43,90.62,100.26
+Low (<=60 ug/m3),Block Conformal (12h),90,2089,99.43,9.43,88.67,93.61
+Low (<=60 ug/m3),Block Conformal (12h),95,2089,99.86,4.86,200.84,204.04
+Low (<=60 ug/m3),Block Conformal (24h),90,2089,99.86,9.86,200.84,202.44
+Low (<=60 ug/m3),Block Conformal (24h),95,2089,99.9,4.9,283.37,284.51
+Moderate (60-120 ug/m3),Ordinary Split Conformal,90,815,68.59,-21.41,51.25,217.52
+Moderate (60-120 ug/m3),Ordinary Split Conformal,95,815,74.36,-20.64,61.25,335.87
+Moderate (60-120 ug/m3),Block Conformal (6h),90,815,80.98,-9.02,72.42,188.04
+Moderate (60-120 ug/m3),Block Conformal (6h),95,815,87.48,-7.52,90.62,265.04
+Moderate (60-120 ug/m3),Block Conformal (12h),90,815,86.5,-3.5,88.67,178.43
+Moderate (60-120 ug/m3),Block Conformal (12h),95,815,98.16,3.16,200.84,270.96
+Moderate (60-120 ug/m3),Block Conformal (24h),90,815,98.16,8.16,200.84,235.9
+Moderate (60-120 ug/m3),Block Conformal (24h),95,815,98.9,3.9,283.37,330.46
+Severe (>120 ug/m3),Ordinary Split Conformal,90,816,34.93,-55.07,51.37,829.93
+Severe (>120 ug/m3),Ordinary Split Conformal,95,816,40.56,-54.44,61.42,1493.42
+Severe (>120 ug/m3),Block Conformal (6h),90,816,46.69,-43.31,72.42,727.81
+Severe (>120 ug/m3),Block Conformal (6h),95,816,53.55,-41.45,90.62,1220.5
+Severe (>120 ug/m3),Block Conformal (12h),90,816,52.94,-37.06,88.67,662.72
+Severe (>120 ug/m3),Block Conformal (12h),95,816,82.6,-12.4,200.84,659.22
+Severe (>120 ug/m3),Block Conformal (24h),90,816,82.6,-7.4,200.84,430.03
+Severe (>120 ug/m3),Block Conformal (24h),95,816,91.3,-3.7,283.37,537.11

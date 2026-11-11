@@ -1,0 +1,48 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments & editor settings
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment secrets & credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Apache Derby / Spark metastore runtime lock & log files
+derby.log
+metastore_db/
+*.lck
+
+# Temporary test outputs & local scratch scripts
+data/benchmark_scales_test/
+scratch/
+
+# Duplicate upstream Dryad download directory (identical Campmier_Manuscript_Data.xlsx is tracked under data/raw/)
+doi_10_6078_D1RQ70__v20230814/
+
+# Deterministically regenerable synthetic multi-scale datasets (scale_50x.csv is 122 MB > GitHub 100 MB limit)
+# Keep scale_1x.* for unit tests; regenerate 5x-50x locally with: python3 run_checkpoint6.py
+data/benchmark_scales/scale_5x.*
+data/benchmark_scales/scale_10x.*
+data/benchmark_scales/scale_25x.*
+data/benchmark_scales/scale_50x.*

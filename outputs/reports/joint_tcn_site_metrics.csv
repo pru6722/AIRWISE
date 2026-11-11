@@ -1,0 +1,25 @@
+site,model,hidden_rmse,hidden_mae,hidden_r2,hidden_mbe
+Delhi,Raw PA_ATM (Baseline),34.52,24.73,0.8942,4.35
+Delhi,Linear Regression (atm_only),49.93,33.7,0.7786,-26.04
+Delhi,Random Forest (all_channels),49.93,34.01,0.7786,-23.29
+Delhi,Two-Stage Linear Interpolation,55.53,35.23,0.7262,-26.17
+Delhi,Two-Stage Random Forest Imputer,62.04,42.9,0.6582,-26.53
+Delhi,GRU Recurrent Imputer,73.81,46.83,0.5162,-38.03
+Delhi,LSTM Recurrent Imputer,101.99,67.67,0.0764,-60.22
+Delhi,Joint TCN (Proposed),86.45,55.39,0.3364,-34.82
+Hamirpur,Raw PA_ATM (Baseline),32.62,23.9,0.5859,22.75
+Hamirpur,Linear Regression (atm_only),10.92,7.81,0.9536,1.1
+Hamirpur,Random Forest (all_channels),13.88,10.46,0.925,1.92
+Hamirpur,Two-Stage Linear Interpolation,27.55,15.54,0.7047,-3.03
+Hamirpur,Two-Stage Random Forest Imputer,30.44,21.04,0.6395,7.4
+Hamirpur,GRU Recurrent Imputer,23.75,16.7,0.7805,-5.75
+Hamirpur,LSTM Recurrent Imputer,34.36,23.6,0.5405,-17.37
+Hamirpur,Joint TCN (Proposed),33.86,21.15,0.5538,-14.1
+Bangalore,Raw PA_ATM (Baseline),7.39,6.01,0.5518,4.39
+Bangalore,Linear Regression (atm_only),5.3,4.12,0.7698,1.92
+Bangalore,Random Forest (all_channels),5.36,3.91,0.7643,1.26
+Bangalore,Two-Stage Linear Interpolation,8.89,5.65,0.3515,2.71
+Bangalore,Two-Stage Random Forest Imputer,7.84,5.93,0.4957,2.02
+Bangalore,GRU Recurrent Imputer,8.99,7.3,0.3373,5.94
+Bangalore,LSTM Recurrent Imputer,8.51,6.65,0.4065,1.87
+Bangalore,Joint TCN (Proposed),17.99,11.94,-1.6532,10.7

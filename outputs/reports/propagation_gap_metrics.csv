@@ -1,0 +1,11 @@
+model,gap_hours,missing_rate,hidden_count,mae,rmse,r2,mbe,error_growth_rmse
+Linear Interpolation,1,0.2,744,18.49,38.79,0.7922,-10.13,0.0
+Random Forest Imputer,1,0.2,744,21.31,36.55,0.8155,-8.11,0.0
+Linear Interpolation,3,0.2,744,19.95,38.92,0.7765,-6.95,0.13
+Random Forest Imputer,3,0.2,744,23.37,40.16,0.7619,-5.31,3.61
+Linear Interpolation,6,0.2,746,24.83,38.24,0.8141,-8.75,-0.55
+Random Forest Imputer,6,0.2,746,27.65,45.01,0.7425,-11.92,8.46
+Linear Interpolation,12,0.2,751,31.8,52.58,0.6212,-16.87,13.79
+Random Forest Imputer,12,0.2,751,30.7,45.9,0.7113,-7.26,9.35
+Linear Interpolation,24,0.2,750,39.8,55.44,0.5778,-7.68,16.65
+Random Forest Imputer,24,0.2,750,34.35,48.92,0.6714,-8.68,12.37

@@ -1,0 +1,25 @@
+pollution_band,hidden_samples,model,hidden_rmse,hidden_mae,hidden_r2,hidden_mbe
+Low (<=60 ug/m3),445,Raw PA_ATM (Baseline),10.47,7.64,0.4356,6.21
+Low (<=60 ug/m3),445,Linear Regression (atm_only),7.12,5.03,0.7389,2.75
+Low (<=60 ug/m3),445,Random Forest (all_channels),9.21,5.52,0.563,2.84
+Low (<=60 ug/m3),445,Two-Stage Linear Interpolation,10.51,6.7,0.4314,3.81
+Low (<=60 ug/m3),445,Two-Stage Random Forest Imputer,12.18,8.16,0.2363,4.82
+Low (<=60 ug/m3),445,GRU Recurrent Imputer,10.91,8.22,0.3867,6.75
+Low (<=60 ug/m3),445,LSTM Recurrent Imputer,10.79,8.01,0.3999,2.22
+Low (<=60 ug/m3),445,Joint TCN (Proposed),33.35,15.08,-4.7306,11.92
+Moderate (61-120 ug/m3),131,Raw PA_ATM (Baseline),26.15,19.27,-0.9277,14.36
+Moderate (61-120 ug/m3),131,Linear Regression (atm_only),16.37,11.9,0.2446,-3.08
+Moderate (61-120 ug/m3),131,Random Forest (all_channels),18.18,13.31,0.0685,0.16
+Moderate (61-120 ug/m3),131,Two-Stage Linear Interpolation,18.67,14.12,0.0169,-0.63
+Moderate (61-120 ug/m3),131,Two-Stage Random Forest Imputer,32.08,22.89,-1.902,11.4
+Moderate (61-120 ug/m3),131,GRU Recurrent Imputer,17.29,13.48,0.1575,-1.86
+Moderate (61-120 ug/m3),131,LSTM Recurrent Imputer,19.72,16.39,-0.096,-6.22
+Moderate (61-120 ug/m3),131,Joint TCN (Proposed),23.76,18.68,-0.5921,-7.99
+Severe (>120 ug/m3),193,Raw PA_ATM (Baseline),45.15,36.05,0.6819,8.02
+Severe (>120 ug/m3),193,Linear Regression (atm_only),60.34,44.75,0.4319,-39.82
+Severe (>120 ug/m3),193,Random Forest (all_channels),59.83,44.9,0.4415,-38.51
+Severe (>120 ug/m3),193,Two-Stage Linear Interpolation,70.3,50.43,0.2288,-46.13
+Severe (>120 ug/m3),193,Two-Stage Random Forest Imputer,75.26,57.64,0.1161,-49.99
+Severe (>120 ug/m3),193,GRU Recurrent Imputer,91.69,68.69,-0.3118,-66.93
+Severe (>120 ug/m3),193,LSTM Recurrent Imputer,127.96,103.38,-1.5551,-103.38
+Severe (>120 ug/m3),193,Joint TCN (Proposed),99.44,73.66,-0.543,-68.54

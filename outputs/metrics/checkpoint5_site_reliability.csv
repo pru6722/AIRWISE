@@ -1,0 +1,4 @@
+site,n_windows,point_rmse,point_mae,point_mbe,residual_lag1_autocorr,category_accuracy,category_f1_macro,cohen_kappa_unweighted,cohen_kappa_linear,cohen_kappa_quadratic,cov_90,cov_error_90,mean_width_90,winkler_90
+Bangalore,55,8.65,7.32,7.24,0.6871,69.09,66.95,0.4003,0.4003,0.4003,90.91,0.91,30.59,32.46
+Delhi,56,36.93,27.92,-23.16,0.6971,69.64,56.99,0.5928,0.7663,0.8721,37.5,-52.5,30.59,353.89
+Hamirpur,16,9.22,7.9,-7.9,0.0887,93.75,90.2,0.9012,0.9535,0.981,93.75,3.75,30.59,33.65

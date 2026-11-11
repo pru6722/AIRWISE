@@ -1,0 +1,4 @@
+distance_tier,n_windows,point_accuracy,pct_ambiguous,pct_ref_compatible
+Near (<= 5 ug/m3),41,58.54,87.8,95.12
+Intermediate (5 - 10 ug/m3),32,68.75,90.62,84.38
+Far (> 10 ug/m3),54,85.19,70.37,94.44

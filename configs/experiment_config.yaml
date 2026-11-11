@@ -1,0 +1,27 @@
+experiment_name: "checkpoint2_baselines"
+description: "Comprehensive calibration and reconstruction baseline experiments on multi-site PurpleAir dataset"
+data_path: "data/processed/cleaned_data.parquet"
+output_dir: "outputs"
+reports_dir: "outputs/reports"
+figures_dir: "outputs/figures"
+models_dir: "outputs/models"
+predictions_dir: "outputs/predictions"
+logs_dir: "outputs/logs"
+synthetic_masks_dir: "data/synthetic_masks"
+
+metrics:
+  - mae
+  - rmse
+  - r2
+  - mbe
+  - relative_bias_pct
+
+humidity_regimes:
+  low: [0.0, 40.0]
+  medium: [40.0, 65.0]
+  high: [65.0, 100.0]
+
+pollution_regimes:
+  low: [0.0, 60.0]
+  moderate: [60.0, 120.0]
+  severe: [120.0, 1000.0]

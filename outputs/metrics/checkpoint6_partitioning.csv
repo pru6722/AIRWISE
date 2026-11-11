@@ -1,0 +1,5 @@
+strategy,table_name,partition_columns,create_time_sec,size_mb,file_count,full_scan_time_sec,pruned_query_time_sec,partition_pruning_verified
+Unpartitioned,sensor_part_none,None,0.257,0.573,2,0.089,0.119,True
+Site Partitioned,sensor_part_site,site,0.424,0.627,4,0.106,0.113,True
+Site + Year Partitioned,sensor_part_site_year,"site, year",0.429,0.679,8,0.1,0.096,True
+Site + Year + Month Partitioned,sensor_part_site_year_month,"site, year, month",1.039,0.893,44,0.242,0.099,True

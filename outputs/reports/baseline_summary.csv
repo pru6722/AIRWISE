@@ -1,0 +1,6 @@
+stage,component,rmse,mae,r2,mbe
+Raw Sensor,PA_CF1,73.21,50.47,0.3088,49.45
+Raw Sensor,PA_ATM,25.8,16.64,0.9142,8.59
+Raw Sensor,PA_ALT,99.15,66.79,-0.2677,-66.79
+Stage-1 Calibration,Random Forest (all_channels),30.22,16.25,0.8823,0.0
+Stage-2 Reconstruction,Linear Interpolation (Hidden Points),36.93,18.94,0.8361,-9.48

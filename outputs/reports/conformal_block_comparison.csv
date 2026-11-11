@@ -1,0 +1,5 @@
+method,block_duration_hours,n_calib_blocks,empirical_coverage_90,mean_interval_width_90,winkler_score_90
+Ordinary Split Conformal,1,1858,77.02,51.4,263.94
+Block Conformal (6h),6,265,83.55,72.42,244.96
+Block Conformal (12h),12,105,86.4,88.67,237.03
+Block Conformal (24h),24,32,95.7,200.84,259.69

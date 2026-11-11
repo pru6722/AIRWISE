@@ -1,0 +1,46 @@
+raw_data_path: "data/raw/Campmier_Manuscript_Data.xlsx"
+processed_data_path: "data/processed/cleaned_data.parquet"
+output_reports_dir: "outputs/reports"
+output_figures_dir: "outputs/figures"
+
+sites:
+  - Delhi
+  - Hamirpur
+  - Bangalore
+
+column_mapping:
+  "Index": "timestamp"
+  "BAM (ug/m3)": "bam_reference"
+  "PA_CF1 (ug/m3)": "pa_cf1"
+  "PA_ATM (ug/m3)": "pa_atm"
+  "PA_ALT (ug/m3)": "pa_alt"
+  "PA_RH (%)": "relative_humidity"
+  "PA_Temperature (°C)": "temperature"
+  "PA_DewPoint (°C)": "dew_point_raw"
+
+validation_rules:
+  pm25_min: 0.0
+  pm25_max: 1000.0
+  rh_min: 0.0
+  rh_max: 100.0
+  temp_min: -10.0
+  temp_max: 60.0
+  dew_point_unit_status: "UNCONFIRMED_SUSPICIOUS"
+  dew_point_exclude_from_model: true
+
+missingness_simulation:
+  scenarios:
+    - name: "mcar"
+      rates: [0.05, 0.10, 0.20, 0.30]
+    - name: "consecutive_blocks"
+      gap_hours: [1, 3, 6, 12, 24]
+      rates: [0.05, 0.10, 0.20, 0.30]
+    - name: "condition_dependent"
+      rates: [0.05, 0.10, 0.20, 0.30]
+
+data_splits:
+  train: 0.60
+  val: 0.10
+  conformal_cal: 0.15
+  test: 0.15
+  buffer_hours: 24

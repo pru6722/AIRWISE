@@ -1,0 +1,49 @@
+paradigm,site,algorithm,feature_set,train_rmse,train_r2,val_mae,val_rmse,val_r2,val_mbe,test_mae,test_rmse,test_r2,test_mbe,test_rel_bias_pct
+Pooled,All Sites,Linear Regression,cf1_only,16.0,0.9278,15.99,33.45,0.4026,-11.65,16.56,33.67,0.8538,-9.18,-10.65
+Pooled,All Sites,Linear Regression,atm_only,15.93,0.9284,16.49,33.58,0.3981,-11.27,16.0,30.34,0.8813,-8.66,-10.04
+Pooled,All Sites,Linear Regression,alt_only,17.13,0.9171,17.49,33.91,0.3863,-10.78,18.37,35.47,0.8378,-8.55,-9.92
+Pooled,All Sites,Linear Regression,all_channels,15.85,0.929,16.35,33.54,0.3995,-11.24,16.13,30.99,0.8762,-8.58,-9.96
+Pooled,All Sites,Random Forest,cf1_only,8.99,0.9772,16.08,33.35,0.4064,-11.0,17.57,33.82,0.8525,-8.55,-9.92
+Pooled,All Sites,Random Forest,atm_only,9.03,0.977,16.04,33.32,0.4074,-10.94,16.85,30.61,0.8792,-7.25,-8.41
+Pooled,All Sites,Random Forest,alt_only,9.67,0.9736,16.87,33.58,0.3981,-10.64,18.49,34.52,0.8464,-9.0,-10.44
+Pooled,All Sites,Random Forest,all_channels,8.47,0.9797,15.41,32.62,0.4322,-10.74,16.25,30.22,0.8823,-8.01,-9.29
+Pooled,All Sites,XGBoost,cf1_only,11.85,0.9603,16.36,33.53,0.3999,-10.73,18.04,34.01,0.8509,-8.64,-10.02
+Pooled,All Sites,XGBoost,atm_only,11.74,0.9611,16.36,33.48,0.4018,-10.67,17.27,31.38,0.873,-7.66,-8.89
+Pooled,All Sites,XGBoost,alt_only,12.35,0.9569,17.11,33.72,0.393,-10.49,18.82,34.74,0.8443,-9.05,-10.5
+Pooled,All Sites,XGBoost,all_channels,10.73,0.9675,15.64,32.89,0.4228,-10.91,16.62,31.26,0.874,-8.13,-9.43
+Site-Specific,Bangalore,Linear Regression,cf1_only,5.62,0.833,4.01,5.5,0.8601,-0.05,3.33,4.24,0.8404,0.93,4.11
+Site-Specific,Bangalore,Linear Regression,atm_only,5.98,0.811,4.94,6.49,0.8055,0.49,3.83,4.76,0.7983,1.35,5.97
+Site-Specific,Bangalore,Linear Regression,alt_only,5.28,0.8526,3.78,4.76,0.8951,1.91,3.75,4.66,0.807,2.44,10.82
+Site-Specific,Bangalore,Linear Regression,all_channels,5.23,0.8554,3.65,4.67,0.8994,1.87,3.73,4.67,0.8066,2.48,10.99
+Site-Specific,Bangalore,Random Forest,cf1_only,3.25,0.9442,3.7,5.2,0.875,-1.04,3.64,4.68,0.805,0.07,0.33
+Site-Specific,Bangalore,Random Forest,atm_only,3.19,0.9463,3.75,5.34,0.8685,-1.08,3.6,4.65,0.808,0.06,0.27
+Site-Specific,Bangalore,Random Forest,alt_only,3.04,0.9512,3.69,4.99,0.8849,0.58,3.84,4.93,0.784,1.36,6.01
+Site-Specific,Bangalore,Random Forest,all_channels,2.75,0.9601,3.56,5.01,0.8842,-0.73,3.48,4.47,0.8224,0.64,2.82
+Site-Specific,Bangalore,XGBoost,cf1_only,3.98,0.9164,3.87,5.59,0.8558,-1.17,3.57,4.59,0.8128,0.16,0.69
+Site-Specific,Bangalore,XGBoost,atm_only,3.98,0.9161,3.8,5.34,0.8681,-1.03,3.52,4.51,0.8193,0.28,1.26
+Site-Specific,Bangalore,XGBoost,alt_only,3.77,0.925,3.79,5.27,0.8716,0.73,3.74,4.84,0.7921,1.65,7.31
+Site-Specific,Bangalore,XGBoost,all_channels,3.38,0.9397,3.56,5.08,0.8806,-0.8,3.43,4.41,0.8271,0.89,3.92
+Site-Specific,Delhi,Linear Regression,cf1_only,23.35,0.894,29.72,49.25,0.1918,-27.13,33.75,52.13,0.735,-26.41,-18.15
+Site-Specific,Delhi,Linear Regression,atm_only,23.15,0.8958,29.32,49.07,0.1975,-26.25,31.94,46.71,0.7872,-24.74,-17.01
+Site-Specific,Delhi,Linear Regression,alt_only,24.85,0.8799,31.89,50.53,0.1491,-30.49,34.18,53.23,0.7237,-25.2,-17.32
+Site-Specific,Delhi,Linear Regression,all_channels,23.09,0.8963,29.56,49.17,0.1942,-26.75,31.61,46.24,0.7915,-24.25,-16.67
+Site-Specific,Delhi,Random Forest,cf1_only,12.47,0.9698,31.0,51.12,0.1293,-28.18,33.69,51.89,0.7374,-23.96,-16.47
+Site-Specific,Delhi,Random Forest,atm_only,12.5,0.9696,30.92,51.02,0.1324,-28.02,31.6,46.4,0.79,-21.38,-14.69
+Site-Specific,Delhi,Random Forest,alt_only,13.17,0.9663,30.39,50.32,0.1561,-27.34,35.16,52.63,0.7299,-25.03,-17.21
+Site-Specific,Delhi,Random Forest,all_channels,11.88,0.9726,30.25,50.15,0.1619,-27.8,31.39,46.43,0.7898,-21.88,-15.04
+Site-Specific,Delhi,XGBoost,cf1_only,15.69,0.9521,30.2,50.69,0.1438,-26.43,34.11,52.17,0.7346,-23.74,-16.32
+Site-Specific,Delhi,XGBoost,atm_only,15.4,0.9539,30.25,50.68,0.1441,-26.52,32.19,47.29,0.7819,-21.8,-14.98
+Site-Specific,Delhi,XGBoost,alt_only,16.61,0.9464,29.69,49.92,0.1696,-25.8,35.48,52.94,0.7266,-25.23,-17.34
+Site-Specific,Delhi,XGBoost,all_channels,14.53,0.959,30.07,50.21,0.1597,-27.37,31.88,47.34,0.7814,-22.55,-15.5
+Site-Specific,Hamirpur,Linear Regression,cf1_only,7.94,0.7964,3.46,4.49,0.9128,-0.63,8.39,11.74,0.9481,-0.5,-0.54
+Site-Specific,Hamirpur,Linear Regression,atm_only,8.21,0.782,4.03,5.1,0.8874,-0.9,8.52,11.96,0.9461,0.49,0.52
+Site-Specific,Hamirpur,Linear Regression,alt_only,7.79,0.8039,3.75,4.84,0.8988,-1.9,19.7,29.37,0.6749,-18.57,-19.77
+Site-Specific,Hamirpur,Linear Regression,all_channels,7.78,0.8045,3.75,4.88,0.8972,-1.99,21.84,32.84,0.5935,-20.9,-22.25
+Site-Specific,Hamirpur,Random Forest,cf1_only,3.71,0.9555,3.24,4.34,0.9186,-0.11,29.76,48.69,0.1062,-24.68,-26.27
+Site-Specific,Hamirpur,Random Forest,atm_only,3.71,0.9554,3.29,4.4,0.9162,0.11,29.77,48.79,0.1026,-24.79,-26.39
+Site-Specific,Hamirpur,Random Forest,alt_only,3.67,0.9564,3.67,4.84,0.8986,-1.11,30.96,48.83,0.101,-28.49,-30.33
+Site-Specific,Hamirpur,Random Forest,all_channels,3.59,0.9583,3.36,4.49,0.9127,-0.5,30.59,48.83,0.1013,-27.67,-29.45
+Site-Specific,Hamirpur,XGBoost,cf1_only,3.84,0.9524,3.45,4.74,0.9027,0.32,31.28,50.66,0.0325,-26.25,-27.94
+Site-Specific,Hamirpur,XGBoost,atm_only,3.88,0.9515,3.5,4.79,0.9007,0.58,30.89,50.25,0.048,-26.19,-27.88
+Site-Specific,Hamirpur,XGBoost,alt_only,3.82,0.9528,3.77,5.06,0.8891,-0.99,32.52,51.33,0.0068,-30.43,-32.4
+Site-Specific,Hamirpur,XGBoost,all_channels,3.55,0.9594,3.23,4.34,0.9184,-0.4,31.17,50.03,0.0564,-28.36,-30.2

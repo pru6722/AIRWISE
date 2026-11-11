@@ -1,0 +1,4 @@
+model_name,eligible_windows,accuracy_pct,macro_f1_pct,weighted_f1_pct,cohen_kappa_quadratic,exact_matches,adjacent_errors,large_errors
+Raw PurpleAir (CF=1),127,39.37,28.03,43.0,0.8792,50,68,9
+Raw PurpleAir (ATM),127,66.14,55.76,66.21,0.9392,84,43,0
+Calibrated Model (Joint TCN),127,72.44,58.96,71.54,0.9271,92,33,2

@@ -1,0 +1,7 @@
+ablation_configuration,description,lambda_cal,lambda_rec,cal_observed_rmse,cal_observed_mae,cal_observed_r2,rec_hidden_rmse,rec_hidden_mae,rec_hidden_r2,rec_hidden_mbe,full_test_rmse,full_test_r2
+A. Full Joint TCN,All 3 PM2.5 channels + meteorology + temporal cyclical + observation mask + joint multi-task loss,1.0,1.0,45.84,21.71,0.7238,56.76,30.4,0.6128,-11.67,48.3,0.6992
+B. Without Meteorological Inputs,Ablates ambient RH and temperature covariates,1.0,1.0,47.68,28.27,0.7012,66.57,35.26,0.4673,-9.86,52.15,0.6493
+C. Without Multi-Channel Inputs,Single PA_ATM channel only (removes PA_CF1 and PA_ALT),1.0,1.0,39.12,22.96,0.7989,54.04,28.73,0.649,-9.35,42.63,0.7656
+D. Without Observation Masks,Removes observation mask indicator (zeros imputed blindly),1.0,1.0,48.52,23.32,0.6906,59.13,31.93,0.5797,-11.96,50.89,0.666
+E. Calibration-Only TCN,TCN trained strictly on calibration loss (no reconstruction objective),1.0,0.0,38.76,20.92,0.8026,102.94,67.48,-0.2737,-36.01,58.16,0.5639
+F. Reconstruction-Only TCN,TCN trained strictly on reconstruction loss (no calibration objective),0.0,1.0,92.22,63.35,-0.1179,66.13,32.69,0.4744,-6.14,87.47,0.0134

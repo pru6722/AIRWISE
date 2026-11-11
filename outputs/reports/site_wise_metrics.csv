@@ -1,0 +1,16 @@
+site,model,test_mae,test_rmse,test_r2,test_mbe
+Bangalore,Linear Interpolation,5.65,8.89,0.3515,2.71
+Bangalore,KNN Imputer,7.65,10.73,0.0551,2.44
+Bangalore,Random Forest Imputer,5.94,7.85,0.4947,2.01
+Bangalore,GRU,7.3,8.99,0.3373,5.94
+Bangalore,LSTM,6.65,8.51,0.4065,1.87
+Delhi,Linear Interpolation,35.23,55.53,0.7262,-26.17
+Delhi,KNN Imputer,58.34,80.45,0.4254,-29.42
+Delhi,Random Forest Imputer,42.95,62.09,0.6576,-26.48
+Delhi,GRU,46.83,73.81,0.5162,-38.03
+Delhi,LSTM,67.67,101.99,0.0764,-60.22
+Hamirpur,Linear Interpolation,15.54,27.55,0.7047,-3.03
+Hamirpur,KNN Imputer,25.94,36.55,0.4799,3.74
+Hamirpur,Random Forest Imputer,20.89,30.23,0.6444,7.18
+Hamirpur,GRU,16.7,23.75,0.7805,-5.75
+Hamirpur,LSTM,23.6,34.36,0.5405,-17.37

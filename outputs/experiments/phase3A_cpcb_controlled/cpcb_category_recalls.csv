@@ -1,0 +1,19 @@
+model_name,category,support,recall_pct,precision_pct,f1_score_pct
+Raw PurpleAir (CF=1),Good,47,53.19,100.0,69.44
+Raw PurpleAir (CF=1),Satisfactory,31,41.94,37.14,39.39
+Raw PurpleAir (CF=1),Moderate,5,0.0,0.0,0.0
+Raw PurpleAir (CF=1),Poor,12,0.0,0.0,0.0
+Raw PurpleAir (CF=1),Very Poor,28,28.57,33.33,30.77
+Raw PurpleAir (CF=1),Severe,4,100.0,16.67,28.57
+Raw PurpleAir (ATM),Good,47,55.32,100.0,71.23
+Raw PurpleAir (ATM),Satisfactory,31,77.42,53.33,63.16
+Raw PurpleAir (ATM),Moderate,5,80.0,36.36,50.0
+Raw PurpleAir (ATM),Poor,12,33.33,80.0,47.06
+Raw PurpleAir (ATM),Very Poor,28,89.29,69.44,78.12
+Raw PurpleAir (ATM),Severe,4,25.0,25.0,25.0
+Calibrated Model (Joint TCN),Good,47,59.57,96.55,73.68
+Calibrated Model (Joint TCN),Satisfactory,31,96.77,61.22,75.0
+Calibrated Model (Joint TCN),Moderate,5,80.0,50.0,61.54
+Calibrated Model (Joint TCN),Poor,12,75.0,56.25,64.29
+Calibrated Model (Joint TCN),Very Poor,28,75.0,84.0,79.25
+Calibrated Model (Joint TCN),Severe,4,0.0,0.0,0.0

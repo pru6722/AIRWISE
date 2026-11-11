@@ -1,0 +1,4 @@
+site,total_records,expected_hourly_steps,missing_timestamps_count,missing_timestamps_pct,exact_1h_transitions_pct,num_gap_events,min_timestamp,max_timestamp
+Delhi,7504,12681,5177,40.82,96.11,292,2018-07-24 06:30:00,2020-01-03 14:30:00
+Hamirpur,3639,7086,3447,48.65,86.53,490,2020-03-22 17:30:00,2021-01-11 22:30:00
+Bangalore,7441,9745,2304,23.64,93.43,489,2019-06-21 17:30:00,2020-07-31 17:30:00

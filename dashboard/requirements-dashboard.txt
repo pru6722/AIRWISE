@@ -1,0 +1,15 @@
+# AIRWISE Dashboard Dependencies
+# Compatible with active Python 3.13 environment
+streamlit>=1.38.0
+duckdb>=1.0.0
+plotly>=5.24.0
+
+# Underlying research platform packages (already installed in workspace environment)
+# torch>=2.8.0
+# pyspark>=4.3.0
+# xgboost>=3.4.1
+# scikit-learn>=1.7.2
+# pandas>=2.3.1
+# numpy>=2.2.6
+# pyarrow>=23.0.1
+# joblib>=1.5.2

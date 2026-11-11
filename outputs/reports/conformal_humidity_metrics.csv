@@ -1,0 +1,16 @@
+humidity_regime,conformal_method,n_samples,empirical_coverage,coverage_error,mean_interval_width,median_interval_width,winkler_score,point_rmse,point_mbe
+Low (<40% RH),Ordinary Split (Dual Head),1155,80.78,-9.22,51.5,49.0,194.52,36.9,-1.48
+Low (<40% RH),Humidity-Conditioned,1155,83.55,-6.45,55.95,55.95,191.31,36.9,-1.48
+Low (<40% RH),Predicted-Pollution-Conditioned,1155,81.99,-8.01,56.07,45.43,188.69,36.9,-1.48
+Low (<40% RH),Site-Conditioned,1155,80.35,-9.65,49.57,45.43,185.56,36.9,-1.48
+Low (<40% RH),Temporal Block Conformal (12h),1155,90.04,0.04,88.67,88.67,183.76,36.9,-1.48
+Medium (40-65% RH),Ordinary Split (Dual Head),1993,70.35,-19.65,51.29,49.0,356.68,58.96,-15.36
+Medium (40-65% RH),Humidity-Conditioned,1993,66.78,-23.22,43.15,43.15,374.84,58.96,-15.36
+Medium (40-65% RH),Predicted-Pollution-Conditioned,1993,73.01,-16.99,53.59,45.43,346.84,58.96,-15.36
+Medium (40-65% RH),Site-Conditioned,1993,70.7,-19.3,51.67,60.62,336.67,58.96,-15.36
+Medium (40-65% RH),Temporal Block Conformal (12h),1993,81.13,-8.87,88.67,88.67,306.64,58.96,-15.36
+High (>65% RH),Ordinary Split (Dual Head),572,92.66,2.66,51.55,49.0,80.95,17.68,-0.96
+High (>65% RH),Humidity-Conditioned,572,76.57,-13.43,27.15,27.15,93.1,17.68,-0.96
+High (>65% RH),Predicted-Pollution-Conditioned,572,92.48,2.48,49.62,45.43,77.08,17.68,-0.96
+High (>65% RH),Site-Conditioned,572,85.14,-4.86,41.3,45.43,90.69,17.68,-0.96
+High (>65% RH),Temporal Block Conformal (12h),572,97.38,7.38,88.67,88.67,102.03,17.68,-0.96

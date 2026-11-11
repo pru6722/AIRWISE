@@ -1,0 +1,9 @@
+model,hidden_rmse,hidden_mae,hidden_r2,hidden_mbe,delta_rmse_vs_joint_ci_95,full_test_rmse,full_test_r2
+Raw PA_ATM (Baseline),26.3,16.75,0.9169,8.05,"[+17.32, +43.88]",25.8,0.9142
+Linear Regression (atm_only),31.44,16.17,0.8812,-8.93,"[+16.24, +35.11]",30.34,0.8813
+Random Forest (all_channels),31.68,16.73,0.8794,-7.99,"[+15.92, +35.01]",30.22,0.8823
+Two-Stage Linear Interpolation,36.93,18.94,0.8361,-9.48,"[+11.76, +30.50]",31.42,0.8727
+Two-Stage Random Forest Imputer,41.02,23.09,0.7978,-7.82,"[+7.71, +25.23]",32.46,0.8642
+GRU Recurrent Imputer,47.22,24.29,0.732,-13.21,"[+2.78, +19.86]",34.15,0.8496
+LSTM Recurrent Imputer,65.14,33.37,0.49,-25.72,"[-18.14, +5.35]",39.78,0.7959
+Joint TCN (Proposed),56.76,30.4,0.6128,-11.67,Reference,48.3,0.6992

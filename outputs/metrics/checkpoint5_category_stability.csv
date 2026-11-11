@@ -1,0 +1,2 @@
+n_total_windows,n_stable_windows,pct_stable,n_ambiguous_windows,pct_ambiguous,point_accuracy_overall,point_accuracy_stable,point_accuracy_ambiguous,ref_category_compatibility_pct,stability_accuracy_gain
+127,24,18.9,103,81.1,72.44,83.33,69.9,92.13,13.43

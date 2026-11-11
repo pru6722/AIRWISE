@@ -1,0 +1,9 @@
+method,nominal_coverage_pct,calib_sample_count,test_sample_count,empirical_coverage_pct,coverage_error_pct,mean_interval_width,median_interval_width,winkler_score
+Ordinary Split Conformal,90,1858,3720,77.02,-12.98,51.4,49.0,263.94
+Ordinary Split Conformal,95,1858,3720,80.27,-14.73,61.45,58.32,443.47
+Block Conformal (6h),90,265,3720,83.55,-6.45,72.42,72.42,244.96
+Block Conformal (6h),95,265,3720,86.75,-8.25,90.62,90.62,382.09
+Block Conformal (12h),90,105,3720,86.4,-3.6,88.67,88.67,237.03
+Block Conformal (12h),95,105,3720,95.7,0.7,200.84,200.84,318.54
+Block Conformal (24h),90,32,3720,95.7,5.7,200.84,200.84,259.69
+Block Conformal (24h),95,32,3720,97.8,2.8,283.37,283.37,349.99
