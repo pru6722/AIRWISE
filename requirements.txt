@@ -1,0 +1,17 @@
+# Root requirements.txt for Streamlit Community Cloud & AIRWISE Dashboard Runtime
+# Main entrypoint: dashboard/app.py
+# Compatible with Python 3.11+ (verified on Python 3.13)
+
+streamlit>=1.50.0
+plotly==7.1.0
+duckdb>=1.0.0
+pandas>=2.2.0
+numpy>=2.0.0
+pyarrow>=18.0.0
+openpyxl>=3.1.5
+joblib>=1.5.0
+scikit-learn>=1.7.0
+scipy>=1.14.0
+xgboost>=2.1.0
+torch>=2.8.0
+PyYAML>=6.0.0
